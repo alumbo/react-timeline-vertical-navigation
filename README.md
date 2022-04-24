@@ -29,7 +29,7 @@ _Built with [StencilJS](https://stenciljs.com/)_
 
 ## [Example](https://github.com/alumbo/react-timeline-vertical-navigation-example)
 
-For the demo, there is an "<ItemsGrid/>" component you can find in source, this is an example of what your scrollable component could be.
+For the demo, there is an "ItemsGrid" component you can find in source, this is an example of what your scrollable component could be.
 
 ```jsx
 import React from "react";
@@ -39,8 +39,17 @@ import {
 } from "react-timeline-vertical-navigation";
 
 function App() {
-  const dates =
-    "2020-03-31, 2022-09-12, 2022-04-01, 2022-03-12, 2022-03-13, 2022-03-14, 2022-03-15, 2000-01-01, 2010-12-01, 2013-10-01, 2010-11-21, 1998-07-28, 2000-01-01, 2000-01-11, 2002-03-11, 2002-04-11, 2002-04-12, 2025-01-01";
+  const getRandomDate = () => {
+    const start = new Date(2000, 0, 1);
+    const end = new Date();
+    return new Date(
+      start.getTime() + Math.random() * (end.getTime() - start.getTime())
+    );
+  };
+  const dates = [];
+  for (let i = 0; i < 50; i++) {
+    dates.push(getRandomDate());
+  }
   const timelineVerticalNavigation = React.createRef();
   const itemsGrid = React.createRef();
   return (
