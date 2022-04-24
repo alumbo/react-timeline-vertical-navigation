@@ -1,7 +1,7 @@
 {
   "name": "react-timeline-vertical-navigation",
   "sideEffects": false,
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Navigate in time same way as Google Photos (React.js)",
   "author": {
     "name": "Matthieu Chavigny @ ReLyfe Group",
