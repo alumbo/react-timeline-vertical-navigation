@@ -1,7 +1,9 @@
 # react-timeline-vertical-navigation
 
 Navigate in time same way as Google Photos.
+
 [timeline-vertical-navigation](https://github.com/relyfe/timeline-vertical-navigation) React.js version
+
 _Built with [StencilJS](https://stenciljs.com/)_
 
 [<img src="screenshot.png" width="300" alt=""/>](https://timeline-vertical-navigation.herokuapp.com/)
@@ -25,7 +27,7 @@ _Built with [StencilJS](https://stenciljs.com/)_
 
 `updateSelectedDate(date: Date) => void`
 
-## (Example)[https://github.com/alumbo/react-timeline-vertical-navigation-example]
+## [Example](https://github.com/alumbo/react-timeline-vertical-navigation-example)
 
 For the demo, there is an "<ItemsGrid/>" component you can find in source, this is an example of what your scrollable component could be.
 
