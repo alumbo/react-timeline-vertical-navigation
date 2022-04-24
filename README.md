@@ -8,6 +8,18 @@ _Built with [StencilJS](https://stenciljs.com/)_
 
 [<img src="screenshot.png" width="300" alt=""/>](https://timeline-vertical-navigation.herokuapp.com/)
 
+## Install
+
+```sh
+yarn add react-timeline-vertical-navigation
+```
+
+or with npm
+
+```sh
+npm add react-timeline-vertical-navigation
+```
+
 ## Properties
 
 | Property             | Attribute          | Description | Type               | Default     |
@@ -27,7 +39,7 @@ _Built with [StencilJS](https://stenciljs.com/)_
 
 `updateSelectedDate(date: Date) => void`
 
-## [Example](https://github.com/alumbo/react-timeline-vertical-navigation-example)
+## Example ([source](https://github.com/alumbo/react-timeline-vertical-navigation-example))
 
 For the demo, there is an "ItemsGrid" component you can find in source, this is an example of what your scrollable component could be.
 
