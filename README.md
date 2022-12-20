@@ -89,5 +89,3 @@ function App() {
 
 export default App;
 ```
-
-### [Online demo](https://timeline-vertical-navigation.herokuapp.com/)
